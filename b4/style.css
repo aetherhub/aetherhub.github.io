@@ -1,0 +1,67 @@
+body {
+  background:#fafafa;
+}
+
+.header-content, .header-links, .inner-content {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/* Dropdown Button styling */
+button.nav-dropdown-btn > i.fas, button.nav-dropdown-btn > i.fab, button.nav-dropdown-btn > i.far{
+    vertical-align: middle;
+}
+button.nav-dropdown-btn:focus{
+    outline: none;
+}
+.nav-dropdown-btn {
+    color: #fff;
+    background-color: #337ab7;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .nav-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #337ab7;
+    width:180px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .nav-dropdown-menu a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .nav-dropdown-menu a:hover {
+      color: #000;
+      background-color: #ddd;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .nav-dropdown:hover .nav-dropdown-menu {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .nav-dropdown:hover .nav-dropdown-btn {
+    background-color: #286090;
+    border-color: #204d74;
+    }

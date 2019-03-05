@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="w-100 bg-primary">
+        <div class="d-flex header-content">
+            <div class="mt-1 mr-2">
+                <img src="AertherHubLogo.svg"  class="banner-image d-none d-lg-block" height="72">
+            </div>
+            <div class="flex-fill mt-1">
+                <!-- <div class="row">
+                    <div class="col-md-12">
+                        <a href="#" class="text-white mr-4"><b>Team Aether</b></a>
+                        <a href="#" class="text-white mr-4"><b>Partners</b></a>
+                        <a href="#" class="text-white"><b>Help</b></a>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="col-md-5">
+                        <form method="get" action="/Market/CardInfo">
+                            <div class="input-group pb-2">
+                                <input type="text" id="searchM" name="CardName" class="form-control form-control-sm" placeholder="Search for magic cards">
+                                <div class="input-group-append">
+                                  <button class="btn btn-success btn-sm" type="button"><i class="fas fa-search"></i></button>
+                                </div>
+                                <a href="/Card" class="btn btn-primary btn-sm ml-2"><b>Advanced Search</b></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row d-sm-none d-md-block">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-start header-content ">
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="ss ss-bcore fa-fw ss-2x"></i> <b>DeckHub</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="ss ss-bcore fa-fw"></i> Browse</a>
+                                        <a href="#"><i class="fab fa-youtube fa-fw"></i> Videos</a>
+                                        <a href="#"><i class="fas fa-mountain fa-fw"></i> Tier1 Meta</a>
+                                        <a href="#"><i class="fas fa-chart-pie fa-fw"></i> Meta Stats</a>
+                                        <a href="#"><i class="fab fa-twitch fa-fw"></i> Extensions</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-archive fa-fw fa-2x"></i> <b>MyDecks</b></button>
+                                    <div class="nav-dropdown-menu">
+                                            <a class="" href="#"><i class="fas fa-archive fa-fw "></i> My Decks</a>
+                                        <a class="" href="#"><i class="far fa-heart fa-fw"></i> Favorites</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-newspaper fa-fw fa-2x"></i> <b>Articles</b></button>
+                                    <div class="nav-dropdown-menu">
+                                            <a class="" href="#"><i class="fas fa-newspaper fa-fw "></i> Browse</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-trophy fa-fw fa-2x"></i> <b>Tourney</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="fas fa-trophy fa-fw"></i> Browse</a>
+                                        <a href="#"><i class="fas fa-trophy fa-fw"></i> My Tourneys</a>
+                                        <a href="#"><i class="fas fa-chess-king fa-fw"></i> My Leagues</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-shopping-basket fa-fw fa-2x"></i> <b>Market</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="fas fa-dollar-sign"></i> Card Prices</a>
+                                        <a href="#"><i class="fas fa-search-plus"></i> Advanced Search</a>
+                                        <a href="#"><i class="ss ss-xmods"></i> Set Index</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fab fa-twitch fa-fw fa-2x"></i> <b>Twitch</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="ss ss-bcore"></i> Extensions</a>
+                                        <a href="#"><i class="fas fa-archive"></i> Deckmaster</a>
+                                        <a href="#"><i class="fas fa-robot"></i> Twitch Bots</a>
+                                        <a href="#"><i class="far fa-images"></i> Assets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-mobile-alt fa-fw fa-2x"></i> <b>Apps</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="fas fa-sync"></i> Deck Converter</a>
+                                        <a href="#"><i class="fas fa-chart-bar"></i> Limited Ratings</a>
+                                        <a href="#"><i class="fas fa-chalkboard-teacher"></i> Draft Sensei</a>
+                                        <a href="#"><i class="far fa-heart"></i> MTGLife</a>
+                                        <a href="#"><i class="fas fa-calculator"></i> HyperGeo Calc</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="nav-dropdown">
+                                    <button type="button" class="mr-2 nav-dropdown-btn"><i class="fas fa-bolt fa-fw fa-2x"></i> <b>Team Aether</b></button>
+                                    <div class="nav-dropdown-menu">
+                                        <a href="#"><i class="fas fa-user"></i> Members</a>
+                                        <a href="#"><i class="fas fa-hands-helping"></i> Join</a>
+                                        <a href="#"><i class="fas fa-question-circle"></i> About</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-1">
+                <a href="#" class="btn btn-primary btn-outline-light">
+                    <i class="fas fa-sign-in-alt"></i> <b>Login</b>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="inner-content mt-2">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Changing to Bootstrap 4</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                    Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                    Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                    Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna. Pellentesque aliquet, purus eget vulputate ornare, lectus nisl ornare ligula, 
+                    et tincidunt felis augue nec quam. Praesent tempor scelerisque dignissim. Ut placerat scelerisque lectus et elementum. Donec ullamcorper tellus ut massa mollis varius. 
+                    Quisque a justo quis enim dignissim convallis in eu neque. Phasellus lacinia felis non luctus mollis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                    Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                    Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                    Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna. Pellentesque aliquet, purus eget vulputate ornare, lectus nisl ornare ligula, 
+                    et tincidunt felis augue nec quam. Praesent tempor scelerisque dignissim. Ut placerat scelerisque lectus et elementum. Donec ullamcorper tellus ut massa mollis varius. 
+                    Quisque a justo quis enim dignissim convallis in eu neque. Phasellus lacinia felis non luctus mollis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                    Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                    Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                    Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna. Pellentesque aliquet, purus eget vulputate ornare, lectus nisl ornare ligula, 
+                    et tincidunt felis augue nec quam. Praesent tempor scelerisque dignissim. Ut placerat scelerisque lectus et elementum. Donec ullamcorper tellus ut massa mollis varius. 
+                    Quisque a justo quis enim dignissim convallis in eu neque. Phasellus lacinia felis non luctus mollis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                    Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                    Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                    Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna. Pellentesque aliquet, purus eget vulputate ornare, lectus nisl ornare ligula, 
+                    et tincidunt felis augue nec quam. Praesent tempor scelerisque dignissim. Ut placerat scelerisque lectus et elementum. Donec ullamcorper tellus ut massa mollis varius. 
+                    Quisque a justo quis enim dignissim convallis in eu neque. Phasellus lacinia felis non luctus mollis.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Generic Title</h5>
+                        <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                                Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                                Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                                Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mt-2">
+                    <div class="card-header bg-primary text-white">
+                            <b>Special Header</b>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur et tellus vitae elementum. Suspendisse a ante ornare, condimentum arcu volutpat, viverra metus. 
+                                Nulla maximus molestie nisl eu malesuada. Etiam vitae ligula vel erat viverra malesuada. Curabitur leo lorem, cursus in fermentum sit amet, lobortis sit amet nunc. 
+                                Aenean gravida est ac justo pellentesque imperdiet. Phasellus iaculis ac velit pretium sagittis. Nullam pulvinar tortor et ex tincidunt, a tempor massa scelerisque. 
+                                Donec aliquet est quis metus porta gravida. Sed sed est cursus, congue nisl in, congue urna.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js""></script>
+</body>
+</html>
